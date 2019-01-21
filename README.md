@@ -53,6 +53,7 @@ POST Request -> localhost:5000/api/users/login
 GET Request -> localhost:5000/api/users/current_user
 ```
 
-## Author
+## Authors
 
 Odueke Tolulope
+Adeyinka Olatunji
