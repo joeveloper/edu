@@ -13,25 +13,25 @@ class Dashboard extends Component {
     const { user } = this.props.auth;
 
     return (
-      <div
-        style={{
-          height: "75vh"
-        }}
-        className="container valign-wrapper"
-      >
+      <div style={{ height: "75vh" }} className="container valign-wrapper">
         <div className="row">
           <div className="col s12 center-align">
             <h4>
               <b>
-                Hey!
+                Hello
                 <span role="img" aria-label="wave">
                   👋{" "}
                 </span>
               </b>{" "}
               {user.name.split(" ")[0]}
               <p className="flow-text grey-text text-darken">
-                You are logged into a full-stack{" "}
-                <span style={{ fontFamily: "monospace" }}>MERN</span> app 🎉
+                You are logged into{" "}
+                <span style={{ fontFamily: "monospace" }}>EduStripe</span>{" "}
+                Portal
+              </p>
+              <p>
+                This service is still under construction, but will be available
+                to you shortly!
               </p>
             </h4>
             <button
