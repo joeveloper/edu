@@ -7,36 +7,41 @@ class Landing extends Component {
       <div style={{ height: "75vh" }} className="container valign-wrapper">
         <div className="row">
           <div className="col s12 center-align">
+            <br />
+            <br />
+            <br />
             <h4>
-              <b>Boilerplate </b> for a login/authentication app with the{" "}
-              <span style={{ fontFamily: "monospace" }}>MERN</span> stack from
-              scratch
+              <b>EduStripe - </b> leveragring Technology to redefine
+              Education
             </h4>
             <p className="flow-text grey-text text-darken-1">
-              A full-stack web app with user authentication via passport and
-              JSON Web Tokens
+              This portal is strictly applicable to School Administrators and
+              their respective teachers.
             </p>
             <br />
             <Link
               to="/register"
               style={{
+                margin: "auto",
                 width: "150px",
                 borderRadius: "3px",
-                letterSpacing: "1.5px"
+                letterSpacing: "1.5px",
+                backgroundColor: "#27446f"
               }}
-              className="btn btn-large waves-effect waves-light hoverable deep-purple darken-1"
+              className="btn btn-large waves-effect waves-light hoverable darken-1"
             >
               Register
             </Link>
             <Link
               to="/login"
               style={{
-                marginLeft: "2rem",
+                margin: "auto",
                 width: "150px",
                 borderRadius: "3px",
-                letterSpacing: "1.5px"
+                letterSpacing: "1.5px",
+                backgroundColor: "#29aae2"
               }}
-              className="btn btn-large waves-effect white hoverable black-text"
+              className="btn btn-large waves-effect  hoverable black-text"
             >
               Log In
             </Link>

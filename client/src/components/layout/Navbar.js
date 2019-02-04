@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
+const logo = require("./logo.png");
+
 class Navbar extends Component {
   render() {
     return (
       <div className="navbar-fixed">
         <nav className="z-depth-0">
-          <div className="nav-wrapper deep-purple darken-1">
+          <div className="nav-wrapper white darken-1">
             <Link
               to="/"
               style={{
@@ -14,8 +16,13 @@ class Navbar extends Component {
               }}
               className="col s5 brand-logo center white-text"
             >
-              <i className="material-icons">code</i>
-              AUTH
+              <img
+                src={logo}
+                alt="Logo"
+                style={{ marginBottom: "100px", height: "100px" }}
+              />
+              <br />
+              <br />
             </Link>
           </div>
         </nav>

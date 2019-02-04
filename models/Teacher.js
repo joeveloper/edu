@@ -15,18 +15,16 @@ const Teacher = new Schema({
     type: String,
     required: true
   },
-  accountInfo: {
-    name: {
-      type: String,
-      required: true
-    },
-    accountNumber: {
-      type: Number,
-      required: true
-    },
-    bvn: {
-      type: Number,
-      required: true
-    }
+  accountName: {
+    type: String,
+    required: true
+  },
+  accountNumber: {
+    type: Number,
+    required: true
+  },
+  bvn: {
+    type: Number,
+    required: true
   }
 });
