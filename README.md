@@ -1,4 +1,4 @@
-# User Auth App (Boilerplate)
+# Edustipe-Dev
 
 ## Table of Contents
 
@@ -7,11 +7,11 @@
 3. <a href="#application-features">Application Features</a>
 4. <a href="#how-to-use">How To Use</a>
 5. <a href="#api-endpoints">API endpoints</a>
-6. <a href="#author">Author</a>
+6. <a href="#author">Authors</a>
 
 ## Link to Hosted App
 
-https://auth-boilerplate-app.herokuapp.com/
+https://edustripe.herokuapp.com/
 
 ## Tech Stack Used
 
@@ -32,7 +32,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/tolulope-od/mailfeed.git
+$ git clone https://github.com/joeveloper/edu.git
 # Install dependencies
 $ npm install
 
