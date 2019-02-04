@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate_for_user_login_authentication",
+  "name": "edustripe_dev",
   "version": "1.0.0",
-  "description": "Boilerplate for user registration and login authentication",
+  "description": "Development environment for edustripe",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
