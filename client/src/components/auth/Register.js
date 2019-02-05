@@ -55,7 +55,7 @@ class Register extends Component {
     const { errors } = this.state;
 
     return (
-      <div style={{ marginTop: "150px;" }} className="container">
+      <div style={{ marginTop: "150px" }} className="container">
         <div className="row">
           <div className="col s8 offset-s2">
             <br />

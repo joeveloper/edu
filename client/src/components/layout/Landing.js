@@ -11,8 +11,7 @@ class Landing extends Component {
             <br />
             <br />
             <h4>
-              <b>EduStripe - </b> leveragring Technology to redefine
-              Education
+              <b>EduStripe - </b> leveragring Technology to redefine Education
             </h4>
             <p className="flow-text grey-text text-darken-1">
               This portal is strictly applicable to School Administrators and
