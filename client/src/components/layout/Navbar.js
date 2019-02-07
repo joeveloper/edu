@@ -19,7 +19,7 @@ class Navbar extends Component {
               <img
                 src={logo}
                 alt="Logo"
-                style={{ marginBottom: "100px", height: "100px" }}
+                style={{ marginBottom: "100px", height: "72px" }}
               />
               <br />
               <br />
